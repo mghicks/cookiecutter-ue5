@@ -1,4 +1,4 @@
-# {{cookiecutter.project-name}}
+# Cookiecutter-ue5
 
 [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template for a C++ UE5 project based on [lafith](https://github.com/lafith)'s [UE5Template](https://github.com/lafith/UE5Template) and [Alex Forsythe](https://www.youtube.com/c/AlexForsythe/videos)'s [tutorial](https://www.youtube.com/watch?v=94FvzO1HVzY) video.
 
