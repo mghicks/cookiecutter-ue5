@@ -16,12 +16,10 @@ Generate a C++ UE5 project::
 cookiecutter gh:mghicks/cookiecutter-ue5
 ```
 
-
 ## Building and Running
 
 
-2. After that go into the project where a bash script named 'ue.bat' is written for various purposes.
-Usage is as follows:
+From the generated project folder, the `ue.bat` script simplifies common tasks.
 ```
 $cd <proj_name>
 $./ue.bat build         [Compile the modules]
@@ -29,4 +27,14 @@ $./ue.bat editor        [Open the project in the UE5 Editor]
 $./ue.bat run           [Run a playable instance of the game ]
 $./ue.bat buildexe      [Build the standalone game]
 $./ue.bat ship          [Cook and Build the standalone game for shipping]
+```
+
+## Unreal Engine Install Location
+
+Cookiecutter supports per-user configuration in a `$HOME/.cookiecutterrc` file.  This can be used to provide the path to your Unreal Engine installation.
+
+```
+# $HOME/.cookiecutterrc
+default_context:
+  ue5_install_dir: "D:/epic/UE_5.1"
 ```
