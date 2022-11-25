@@ -1,0 +1,5 @@
+{
+    "project_name": "Template Project",
+    "project_slug": "{{ cookiecutter.project_name.replace(' ', '').replace('-', '_') }}",
+    "ue5_install_dir": "C:\\Program Files\\Epic Games\\UE_5.1"
+}
